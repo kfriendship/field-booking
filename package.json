@@ -1,0 +1,10 @@
+{
+  "name": "yeyak-finder",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "stadiums": "node scripts/build-stadiums.mjs",
+    "deploy:worker": "cd worker && npx wrangler deploy"
+  }
+}

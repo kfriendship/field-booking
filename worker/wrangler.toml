@@ -1,0 +1,7 @@
+name = "yeyak-finder"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+# GitHub Pages 주소로 바꾸세요 (여러 개면 쉼표로). localhost는 항상 허용됨
+ALLOWED_ORIGINS = "https://kfriendship.github.io"
