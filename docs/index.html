@@ -30,7 +30,9 @@
   }
   main { max-width: 1100px; margin: 0 auto; padding: 32px 20px 64px; }
   h1 { font-size: 26px; line-height: 1.2; margin: 0 0 4px; font-weight: 700; letter-spacing: -0.01em; }
-  .sub { color: var(--muted); margin: 0 0 28px; }
+  .sub { color: var(--muted); margin: 0 0 16px; }
+  .notice { margin: 0 0 28px; padding: 12px 16px; border-left: 3px solid var(--flag); background: #fff; border-radius: 0 8px 8px 0; font-size: 14px; }
+  .notice ol { margin: 4px 0 0; padding-left: 20px; }
 
   form.controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; margin-bottom: 12px; }
   label.field { display: grid; gap: 4px; font-size: 13px; color: var(--muted); }
@@ -113,6 +115,14 @@
 <main>
   <h1>화성 축구장 빈 시간</h1>
   <p class="sub">날짜와 시간대를 고르면 그 시간 내내 비어 있는 구장을 찾아요.</p>
+  <aside class="notice">
+    <strong>※ 예약접수일시</strong>
+    <ol>
+      <li>관내 단체 : 전월 25일 오전 10시 ~</li>
+      <li>관내 개인 : 전월 28일 오전 10시 ~</li>
+      <li>관외 개인 : 당월 7일 오전 10시 ~</li>
+    </ol>
+  </aside>
 
   <form class="controls" id="form">
     <label class="field">날짜
